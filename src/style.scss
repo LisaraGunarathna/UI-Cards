@@ -1,0 +1,419 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Montserrat:wght@200;300;400;500;600;700;800;900&family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: #E2E2E2;
+    margin: 1em 0px 0px 2em;
+}
+
+//---------------card box 1------------
+.card-box-1 {
+    width: 349px;
+    height: 373px;
+    border-radius: 14px;
+    background: #FFF;
+    border: 4px solid rgba(236, 239, 242, 0.38);
+    box-shadow: 0px 3px 100px 0px rgba(95, 111, 115, 0.20);
+
+
+    .merry-go-around {
+        width: 333px;
+        height: 189px;
+        flex-shrink: 0;
+        background-image: url(/img/merry_go_round.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 12px;
+        margin: 4px 2px 0 3px;
+    }
+
+    .title-flex {
+        display: flex;
+    }
+
+    h2 {
+        color: #202020;
+        font-family: Inter;
+        font-size: 22px;
+        font-weight: 800;
+        padding: 15px 51px 21px 18px;
+    }
+
+    span {
+        border-radius: 6px;
+        background: #C7EAF5;
+        box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.25);
+        color: #000;
+        font-size: 12px;
+        font-weight: 800;
+        letter-spacing: 1.55px;
+        padding: 6px 9px 6px 8px;
+        margin: 15px 18px 21px 0px;
+        font-family: 'Inter', sans-serif;
+    }
+
+    p {
+        color: #616161;
+        text-align: justify;
+        font-size: 14px;
+        font-weight: 500;
+
+        width: 316px;
+        height: 49px;
+        flex-shrink: 0;
+        margin: -3px 12px 14px 17px;
+    }
+
+    .btn-1 {
+        display: flex;
+        width: 316px;
+        border: none;
+        padding: 10px 126px 10px 125px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 12px;
+        background: #4E74AE;
+        margin: 16px 19px 12px 12px;
+
+        a {
+            color: #FFF;
+            text-align: justify;
+            font-family: Inter;
+            font-size: 14px;
+            font-weight: 600;
+        }
+    }
+}
+
+// ---------card box 2 -------------
+.card-box-2 {
+    margin: 1em 0 1em 0;
+    .grapes {
+        background-image: url(/img/grapes.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-position-y: -1;
+        width: 430px;
+        height: 370px;
+        flex-shrink: 0;
+        border-radius: 12px 12px 0px 0px;
+        filter: brightness(1) contrast(1) saturate(1.15);
+    }
+    
+    .box {
+        border-radius: 0px 15px 0px 0px;
+        background: #FEFEFE;
+        padding: 5px 8px;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        transform:translateY(-45px) translateX(0px);
+    
+        span {
+            border: 3px solid rgba(151, 151, 151, 0.1);
+            background: #D3D432;
+            padding: 4px;
+            border-radius: 30px;
+    
+    
+            color: #FFF;
+            font-size: 18px;
+            font-weight: 700;
+        }
+    }
+    
+    .text-content {
+        width: 430px;
+        height: 117px;
+        background-color: #fff;
+        border-radius: 0 0 25px 25px;
+    }
+    
+    .label-flex {
+        display: flex;
+    
+        .title {
+            color: #202020;
+            font-family: Inter;
+            font-size: 1.5rem;
+            font-weight: 900;
+            margin: 9px 21px 13px 22px;
+        }
+    
+        .price {
+            margin: 12px 2px 7px 0px;
+            color: #585858;
+            font-family: Inter;
+            font-size: 1.3rem;
+            font-weight: 800;
+        }
+    
+        .plus {
+            background: rgba(197, 197, 197, 0.8);
+            box-shadow: 0px 4px 10px 0px rgba(78, 78, 78, 0.15);
+            height: 32px;
+            width: 40px;
+            border-radius: 5px;
+            border: none;
+            margin: 10px 1px 14px 5px;
+    
+            img {
+                width: 45%;
+            }
+    
+        }
+        .count {
+            background: rgba(197, 197, 197, 0.8);
+            box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.2);
+            height: 30px;
+            width: 40px;
+            border-radius: 5px;
+            border: none;
+            margin: 10px 1px 14px 5px;
+    
+            span {
+                font-size: 1.4rem;
+                font-weight: 600;
+    
+            }
+        }
+    
+        .minus {
+            background: rgba(197, 197, 197, 0.8);
+            box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.2);
+            height: 30px;
+            width: 40px;
+            border-radius: 5px;
+            border: none;
+            margin: 10px 1px 14px 5px;
+    
+            img {
+                width: 80%;
+            }
+        }
+    }
+}
+
+
+.cart-btn {
+    margin-left: 1.1em;
+    border: none;
+    padding: 10px 114px 10px 143px;
+    border-radius: 11px;
+    background: #D9D9D9;
+    color: #393939;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+
+    span {
+        margin-left: -9px;
+    }
+
+    img {
+        transform: translateY(3px) translateX(5px);
+        margin-left: 1px;
+        filter: opacity(.8);
+    }   
+}
+
+.card-box-3 {
+
+    .sea-lion {
+        width: 430px;
+        height: 515px;
+        flex-shrink: 0;
+        background-image: url(/img/sea_lion_2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-y: center;
+        border-radius: 20px 20px 0 0;
+    }
+    
+    .content-box {
+        width: 430px;
+        height: 50px;
+        border-radius: 0px 0px 12px 12px;
+        background: #FFF;
+        box-shadow: 0px 3px 100px 0px rgba(95, 111, 115, 0.20);
+
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-around;
+        padding: 30px 10px;
+
+
+        .avatar {
+            width: 10%;
+            clip-path: circle(40%);
+        }
+        .title {
+            color: #323232;
+            font-family: Inter;
+            font-size: 18px;
+            font-weight: 800;
+            padding-right: 32px;
+            padding-left: 4px;
+        }
+
+        .chat-ico {
+            width: 35px;
+        }
+        .chat {
+            color: #000;
+            font-family: Inter;
+            font-size:18px;
+            font-weight: 700;
+        }
+
+        .likes-ico {
+            width: 40px;
+        }
+        .likes {
+            color: #000;
+            font-family: Inter;
+            font-size: 18px;
+            font-weight: 700;
+        }
+    }
+}
+
+
+.card-box-4 {
+    margin-top: 2em;
+    position: relative;
+
+    .top {
+        width: 450px;
+        height: 75px;
+        border-radius: 20px 20px 0px 0px;
+        background: #F2F2F2;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        .userDetails {
+            display: flex;
+            .profile-img {
+                width: 30%;
+                clip-path: circle(35%);
+                object-fit: contain;
+            }
+            .title {
+                padding: 14px 5px;;
+                h3 {
+                    color: #000;
+                    font-family: Inter;
+                    font-size: 20px;
+                    font-weight: 800;
+                }
+                
+                span {
+                    color: #434343;
+                    font-family: Inter;
+                    font-size: 13px;
+                    font-weight: 700;
+                }
+            }        
+        }
+
+
+
+        .more {
+            width: 20%;
+            display: flex;
+            position: relative;
+            transform: translateX(111px);
+        }       
+    }
+
+    .post-img {
+        background-image: url(/img/city_train.jpg);
+        width: 450px;
+        height: 500px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+
+    .bottom {
+        background-color: #fff;
+        width: 450px;
+        padding: 10px 0 10px 0;
+        border-radius: 0 0 20px 20px;
+
+        .action-btns {
+            display: flex;
+            grid-gap: 132px;
+            align-items: center;
+            justify-content: center;
+            transform: translateX(-6px);
+    
+            .like {
+                width: 40px;
+                height: 40px;
+            }
+        
+            .comments {
+                width: 40px;
+                height: 40px;
+            }
+        
+            .share {
+                width: 40px;
+                height: 40px;
+            }
+        }
+    
+        hr {
+            width: 450px;
+            background: #D3D3D3;
+            margin: 0.8em 0 0.8em 0;
+        }
+    
+        .comment-enter {
+            display: flex;
+            margin-bottom: 0.8em;
+
+            .profile-photo {
+                width: 68px;
+                -webkit-clip-path: circle(40%);
+                clip-path: circle(40%);
+                margin-left: 11px;
+            }
+
+            input {
+                border-radius: 25px;
+                border: 1.7px solid rgba(207, 207, 207, 0.75);
+                background: #ededed;
+                width: 349px;
+                padding: 6px 12px;
+            }
+
+            ::placeholder {
+                color: #8a8a8a;
+                font-family: Inter;
+                font-size: 14px;
+                font-weight: 500;
+                padding-left: 4px;
+            }
+        }
+    }   
+}
+
+
+
+
